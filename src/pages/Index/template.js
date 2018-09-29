@@ -1,3 +1,7 @@
+import xxx from '@/helpers/request.js'
+
+window.request = xxx
+
 export default {
   data () {
     return {
